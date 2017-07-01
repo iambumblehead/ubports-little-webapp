@@ -17,9 +17,11 @@ $ npm install
 $ npm start # after express starts, use a browser to visit http://localhost:3000/
 ```
 
-It runs! Most webapps are developed around a local service such as this, where changes can be seen in the browser.
+It runs! You should see a scripted alert box. Most webapps are developed around a local service such as this, where changes can be seen in the browser.
 
 #### Make a .click package!
+
+![scrounge](https://github.com/iambumblehead/ubports-little-webapp/raw/master/src/img/click-123.png)
 
 Now you're ready to make a .click package. Call the included `makeclick.sh` script. This script can be customised along with the boilerplate files found in ./platform/click.
 
@@ -37,7 +39,8 @@ Successfully built package in './ubports-little-webapp_1.0.0_all.click'.
 
 #### Test a .click package!
 
-Installing a .click package on your device is the best way to test it. [Install adb][0] if you haven't done that already, then turn on your device and plug it in.
+One of the best ways to test your .click package is to install it on a device.
+[Install adb][0] if you haven't done that already, then turn on your device and plug and usb-connect it.
 
 ```bash
 $ adb push ubports-little-webapp_1.0.0_all.click /tmp # copy to the device
@@ -52,7 +55,7 @@ Finished                      [=========================]
 Installed   	ubports-little-webapp-1.0.0.all
 ```
 
-Babam!! Refresh your homescreen and click the ubports logo!
+Refresh your homescreen and click the ubports icon to start the app!
 
 
 
