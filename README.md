@@ -1,10 +1,10 @@
 ### The Ubports Little Webapp
 
-[Ubports][4] is a mobile operating system that does not collect personal data. It looks beautiful and is easy to use :). 'My favorite phone OS.
+[Ubports][4] is a mobile operating system that does not collect personal data. It looks beautiful and is easy to use :). My favorite.
 
-Here, I'll share what's needed to package and install an html/js app as a "click" application for Ubports. Download this little demo app and follow along to create a .click package with it.
+Here, I'll share what's needed to package and install an html/js app as a "click" package for Ubports. Download this little demo app and follow along to create a .click package with it.
 
-It does not use electron or node-webkit. It does use a webapp container provided by your Ubports system.
+It does not use electron or node-webkit, but uses a web container provided by the Ubports system.
 
 #### Get started
 
@@ -40,7 +40,7 @@ Successfully built package in './ubports-little-webapp_1.0.0_all.click'.
 #### Test a .click package!
 
 One of the best ways to test your .click package is to install it on a device.
-[Install adb][0] if you haven't done that already, then turn on your device and plug and usb-connect it.
+[Install adb][0] if you haven't done that already, then turn on your device and and usb-connect it. Be sure that "Developer mode" is enabled (System Settings > About > Developer mode).
 
 ```bash
 $ adb push ubports-little-webapp_1.0.0_all.click /tmp # copy to the device
@@ -57,7 +57,7 @@ Installed   	ubports-little-webapp-1.0.0.all
 
 Refresh your homescreen and click the ubports icon to start the app!
 
-
+![scrounge](https://github.com/iambumblehead/ubports-little-webapp/raw/master/src/img/flow-123.png)
 
 
 <!--
