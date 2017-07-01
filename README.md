@@ -74,8 +74,7 @@ Credit:
 * Alan Pope's click package [blog entry][2]
 
 
-![scrounge](https://github.com/iambumblehead/scroungejs/raw/master/img/hand.png)[![es5 classic][7]][7] 
-
+![scrounge](https://github.com/iambumblehead/scroungejs/raw/master/img/hand.png)
 
 
 [0]: https://www.linuxbabe.com/ubuntu/how-to-install-adb-fastboot-ubuntu-16-04-16-10-14-04
