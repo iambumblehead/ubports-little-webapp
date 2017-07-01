@@ -8,6 +8,8 @@ It does not use electron or node-webkit. It does use a webapp container provided
 
 #### Get started
 
+![scrounge](https://github.com/iambumblehead/ubports-little-webapp/raw/master/src/img/browser-123.png)
+
 First, download or clone the app and visit it with a shell. Use npm to install and run it locally and to see it in your browser.
 
 ```bash
@@ -47,10 +49,12 @@ Installing files              [=========================]
 Testing changes               [=========================]
 Starting                      [=========================]
 Finished                      [=========================]
-Installed   	ubports-little-webapp-1.0.0.all (installed:click,removable=1,app_name=ubports-little-webapp)	summary goes here
+Installed   	ubports-little-webapp-1.0.0.all
 ```
 
 Babam!! Refresh your homescreen and click the ubports logo!
+
+
 
 
 <!--
@@ -64,7 +68,11 @@ I've followed various guides and installed overlays and linked various libraries
 
 Credit:
 
- * Alan Pope's click package [blog entry][2]
+* Alan Pope's click package [blog entry][2]
+
+
+![scrounge](https://github.com/iambumblehead/scroungejs/raw/master/img/hand.png)[![es5 classic][7]][7] 
+
 
 
 [0]: https://www.linuxbabe.com/ubuntu/how-to-install-adb-fastboot-ubuntu-16-04-16-10-14-04
