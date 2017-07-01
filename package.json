@@ -1,0 +1,18 @@
+{
+  "name": "ubports-little-webapp",
+  "description": "a little webapp",
+  "author": "Chris <chris@bumblehead.com>",
+  "license" : "MIT",
+  "repository": "https://github.com/iambumblehead/ubports-little-webapp",
+  "readmeFilename": "README.md",
+  "version": "1.0.0",
+  "main": "index.html",
+  "readmeFilename": "README.md",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.13.4"
+  },
+  "scripts": {
+    "start" : "node express.js"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "ubports-little-webapp",
+  "description": "a little ubports webapp",
+  "architecture": "all",
+  "version": "1.0.0",
+  "maintainer": "chris <chris@bumblehead.com>",
+  "framework" : "ubuntu-sdk-15.04.5",  
+  "title": "ubports-little-webapp",
+  "hooks": {
+    "ubports-little-webapp": {
+      "apparmor": "ubports-little-webapp.apparmor",
+      "desktop":  "ubports-little-webapp.desktop"
+    }
+  }
+}

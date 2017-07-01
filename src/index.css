@@ -1,0 +1,13 @@
+html {
+    box-sizing: border-box;
+    background-image:url(./img/ubports-logo.svg);
+    background-position:center;
+    background-repeat:no-repeat;
+    width:100%;
+    height:100%;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}

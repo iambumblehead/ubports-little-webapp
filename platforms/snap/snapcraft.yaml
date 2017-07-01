@@ -1,0 +1,31 @@
+name: ubports-little-webapp
+version: "1.0.0"
+summary: a little webapp
+description: |
+  a little webapp
+
+grade: stable
+confinement: strict
+
+apps:
+  ubports-little-webapp:
+    command: webapp-launcher src/index.html
+    plugs:
+      - browser-sandbox
+      - opengl
+      - network
+
+plugs:
+  browser-sandbox:
+    interface: browser-support
+    allow-sandbox: false
+  platform:
+    interface: content
+    content: ubuntu-app-platform1
+    target: ubuntu-app-platform
+    default-provider: ubuntu-app-platform
+
+parts:
+  webapp-container:
+    plugin: nil
+    after: [webapp-helper,desktop-ubuntu-app-platform]

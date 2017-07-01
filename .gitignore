@@ -1,0 +1,15 @@
+node_modules
+README.html
+npm-debug.log
+.tern-port
+build
+platforms/click/src
+platforms/snap/parts
+platforms/snap/prime
+platforms/snap/snap
+platforms/snap/src
+platforms/snap/stage
+platforms/snap/*snap
+platforms/snap/*bz2
+*.click
+*.snap

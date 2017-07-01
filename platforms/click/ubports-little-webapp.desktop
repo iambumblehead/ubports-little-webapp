@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=ubports-little-webapp
+Comment=a little ubports webapp
+Exec=webapp-container $@ ./src/index.html
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+Icon=./ubports-logo.svg
+Name[en_US]=ubports-little-webapp.desktop
