@@ -40,7 +40,7 @@ Successfully built package in './ubports-little-webapp_1.0.0_all.click'.
 #### Test a .click package!
 
 One of the best ways to test your .click package is to install it on a device.
-[Install adb][0] if you haven't done that already, then turn on your device and and usb-connect it. Be sure that "Developer mode" is enabled (System Settings > About > Developer mode).
+[Install adb][0] if you haven't done that already, then turn on your device and usb-connect it. Be sure "Developer mode" is enabled (System Settings > About > Developer mode).
 
 ```bash
 $ adb push ubports-little-webapp_1.0.0_all.click /tmp # copy to the device
