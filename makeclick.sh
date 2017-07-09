@@ -12,11 +12,11 @@
 NAME=$(node -p -e 'require("./package.json").name')
 VERSION=$(node -p -e 'require("./package.json").version')
 
-WEB_SRC='./src'
-CLICK_SRC='./platforms/click/src'
+WEB_SRC=./src
+CLICK_SRC=./platforms/click/src
 
-INDEX='./platforms/click'
-MANIFEST='./platforms/click/manifest.json'
+INDEX=./platforms/click
+MANIFEST=./platforms/click/manifest.json
 
 echo '[...] generate .click: $NAME-$VERSION'
 echo '[...] clean sources'
